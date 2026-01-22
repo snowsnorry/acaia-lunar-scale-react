@@ -34,6 +34,18 @@ npm run build
 npm run preview
 ```
 
+## Tests
+
+```bash
+npm test
+```
+
+Run a single test file:
+
+```bash
+npm test -- src/__tests__/ChartPanel.test.jsx
+```
+
 ## Notes
 
 - Web Bluetooth is not supported in Safari or Firefox.
